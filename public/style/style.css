@@ -1,0 +1,164 @@
+header{
+  background-color: #C84B31;
+  position: relative;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.logo{
+  width: 150px;
+  height: 50px;
+  position:relative;
+  top: 10px;
+  left: 20px;
+}
+
+.judul{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: -5px;
+  left: 86%;
+}
+
+nav{
+height: 20px;
+position:relative;
+top: 23px;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #2D4263;
+top: 23px;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+border-radius: 25px;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: red;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+border-radius: 25px;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+background-color: red;
+align-items: center;
+flex: 1;
+display: flex;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-radius: 25px;
+}
+
+.dropdown-content a:hover {
+background-color: rgb(131, 39, 39);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+section{
+  display: flex;
+  padding-top: 60px;
+}
+
+.tengah{
+  padding: 20px;
+  padding-top: 25px;
+  background-color: #191919;
+  flex: 6;
+  border-radius: 25px;
+}
+
+.pagination {
+display: inline-block;
+}
+
+.pagination a {
+color: rgb(255, 255, 255);
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+}
+
+.kanan{
+  left: 100px;
+  padding-top: 5px;
+  background-color: #ECDBBA;
+  flex: 1;
+  text-align: center;
+  font-family: cursive;
+  border-radius: 25px;
+}
+
+.gambarBerita1{
+  display: flex;
+}
+
+.gambarBerita2{
+display: flex;
+}
+
+.gambarBerita1 .content1 , .content2 , .content3{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: inherit;
+}
+
+.gambarBerita2 .content4 , .content5, .content6{
+background-color: #f1f1f1;
+margin: 10px;
+padding: 20px;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+position: inherit;
+}
+
+footer{
+  background-color: #C84B31;
+  position: relative;
+  top: -5px;
+  text-align:Center;
+  text-size-adjust:inherit;
+  line-height: 12px;
+  line-break: loose;
+  word-spacing: 5px;
+  border-radius: 25px;
+}
